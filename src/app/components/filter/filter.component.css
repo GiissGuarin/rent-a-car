@@ -1,0 +1,26 @@
+.navbar {
+  background-color: var(--main-bg-color);
+}
+.content-filter {
+  margin: 15px;
+  width: 100%;
+  flex-wrap: nowrap;
+}
+
+.text-filter{
+    margin: 0;
+    padding: 0;
+    color: white;
+    display: flex;
+    align-items: center;
+
+}
+.input-search{
+    height: auto;
+}
+.button-submit{
+    background-color: black;
+    color: white;
+    padding: 10px 30px;
+
+}
