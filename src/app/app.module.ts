@@ -13,6 +13,7 @@ import { FormsModule, ReactiveFormsModule } from "@angular/forms";
 import { HomeListComponent } from "./components/home-list/home-list.component";
 import { StoreModule } from "@ngrx/store";
 import { carReducer } from "./store/app.reducer";
+import { reducers, metaReducers } from './reducers';
 
 @NgModule({
   declarations: [
@@ -33,6 +34,13 @@ import { carReducer } from "./store/app.reducer";
     NgbModule,
     StoreModule.forRoot({ car: carReducer }),
     NgbModule.forRoot(),
+    StoreModule.forRoot(reducers, {
+      metaReducers,
+      runtimeChecks: {
+        strictStateImmutability: true,
+        strictActionImmutability: true
+      }
+    }),
   ],
   providers: [],
   bootstrap: [AppComponent],
