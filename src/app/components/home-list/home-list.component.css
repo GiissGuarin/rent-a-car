@@ -49,7 +49,7 @@
   transition: 600ms;
 }
 .card:hover .price-amount {
-  background-color: black;
+  background-color: var(--main-black);
   transition: 600ms;
 }
 .card:hover .description i {

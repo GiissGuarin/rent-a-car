@@ -14,6 +14,7 @@ import { HomeListComponent } from "./components/home-list/home-list.component";
 import { StoreModule } from "@ngrx/store";
 import { carReducer } from "./store/app.reducer";
 import { reducers, metaReducers } from "./reducers";
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { reducers, metaReducers } from "./reducers";
     FilterComponent,
     CarDetailsComponent,
     HomeListComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
