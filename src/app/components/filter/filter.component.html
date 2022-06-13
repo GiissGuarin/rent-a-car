@@ -1,29 +1,25 @@
-<nav class="navbar navbar-expand-lg navbar-light">
-    <div class="container-fluid">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-
-            <form class="w-100">
-                <div class=" row content-filter">
-                    <p class=" mx-3 text-filter">FILTER BY:</p>
-                    <select formControlName="filter_by"  paceholder="Filter by:"
-                    class="col-lg-4 col-md-3 mx-3 form-control input-search">
-                    <option value="">Todos</option>
-                    <option value="brand">Brand</option>
-                    <option value="model">Model</option>
-                    <option value="year">Year</option>
-                    <option value="price">Price</option>
-                </select>
-                <input class="col-lg-4 col-md-3 mx-3  form-control input-search" formControlName="keyword"
-                    type="search" placeholder="Write here" aria-label="Search">
-                <button class=" mx-3  btn button-submit" type="submit">SEARCH CAR</button>
-
-                </div>
-                
-            </form>
+<nav class="navbar navbar-expand navbar-light">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse" *ngIf="search">
+      <form class="w-100" [formGroup]="filterForm">
+        <div class="row content-filter">
+          <label class="mx-3 text-filter">SEARCH:</label>
+          <input
+            class="col-md-3 col-sm-12 col-xs-12 form-control input-search"
+            formControlName="inputFilter"
+            type="search"
+            placeholder="Search here"
+            aria-label="Search"
+          />
+          <button
+            class="mx-3 btn button-submit"
+            type="submit"
+            (click)="filterList()"
+          >
+            SEARCH CAR
+          </button>
         </div>
+      </form>
     </div>
+  </div>
 </nav>

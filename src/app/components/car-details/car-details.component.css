@@ -1,0 +1,77 @@
+.body {
+  background-color: var(--bg-color) !important;
+  padding-top: 5vw;
+}
+.contain {
+  width: 100%;
+}
+.article {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card {
+  width: auto;
+  height: auto;
+}
+.image {
+  width: 100%;
+  height: 100%;
+}
+.specifications {
+  background-color: var(--main-color);
+  color: white;
+  width: 100%;
+  margin: 0;
+}
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 0;
+}
+.item p {
+  margin: 0 10px;
+}
+.price-label {
+  margin: 0 0 0 70px;
+  font-weight: bold;
+}
+.price-label span {
+  color: var(--main-color);
+  font-size: 25px;
+}
+.text-card {
+  padding: 50px;
+}
+.btn-book {
+  padding: 20px 30px;
+  background-color: var(--main-color);
+  color: white;
+}
+@media (max-width: 1200px) {
+  .text-card {
+    padding: 25px;
+  }
+  .price-label {
+    margin: 0 0 0 40px;
+  }
+}
+@media (max-width: 993px) {
+  .btn-book {
+    width: 90%;
+    margin: 0 12px;
+  }
+}
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+ngb-carousel.carousel.slide {
+  height: 30vw;
+}
+.carousel-inner,
+.carousel-item,
+.picsum-img-wrapper {
+  height: 100%;
+}

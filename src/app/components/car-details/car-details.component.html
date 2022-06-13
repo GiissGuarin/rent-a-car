@@ -1,0 +1,48 @@
+<app-filter></app-filter>
+
+<div class="body" *ngIf="carSelected">
+  <div class="row contain">
+    <div class="col-lg-6 col-md-6 col-sm-12">
+      <ngb-carousel #carousel [interval]="2000">
+        <ng-template
+          ngbSlide
+          *ngFor="let img of carSelected.imgs_large; index as i"
+        >
+          <div class="picsum-img-wrapper">
+            <img class="image" [src]="img" alt="My image {{ i + 1 }}" />
+          </div>
+        </ng-template>
+      </ngb-carousel>
+    </div>
+    <div class="col article">
+      <div class="card">
+        <div class="row specifications">
+          <div class="col-3" *ngFor="let item of carSelected.specification">
+            <div class="d-flex item">
+              <i class="{{ item.icon }}"></i>
+              <p>{{ item.text }}</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <div class="text-card">
+              <h3>{{ carSelected.title | titlecase }}</h3>
+              <p>{{ carSelected.description }}</p>
+            </div>
+          </div>
+        </div>
+        <div class="row mb-5">
+          <div class="col-lg-6 col-md-12 col-sm-6">
+            <p class="price-label">
+              PRICE PER DAY <span>{{ carSelected.price | currency }}</span>
+            </p>
+          </div>
+          <div class="col-lg-6 col-md-12 col-sm-6">
+            <button class="btn btn-book">BOOK NOW</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

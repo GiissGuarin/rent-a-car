@@ -1,0 +1,68 @@
+.body {
+  background-color: var(--bg-color) !important;
+}
+.content {
+  padding: 50px;
+}
+.card {
+  padding: 15px;
+  transition: all 0.5s ease-in;
+  cursor: pointer;
+  height: 100%;
+}
+.content-left h5 {
+  white-space: nowrap;
+}
+
+.price-amount {
+  color: white;
+  background-color: var(--main-color);
+  padding: 10px;
+  min-width: fit-content;
+  transition: all 0.5s ease-in;
+}
+.price-amount .amount {
+  font-size: 20px;
+  font-weight: bold;
+}
+.amount span {
+  font-size: 14px;
+}
+.description {
+  align-items: center;
+  margin: 10px 0;
+}
+.description p {
+  margin: 0 10px;
+  font-size: 13px;
+}
+.description i {
+  color: var(--main-color);
+  transition: all 0.5s ease-in;
+}
+.section-img {
+  margin-top: 10px;
+}
+
+.card:hover {
+  background-color: var(--main-color);
+  transition: 600ms;
+}
+.card:hover .price-amount {
+  background-color: black;
+  transition: 600ms;
+}
+.card:hover .description i {
+  color: black;
+  transition: 600ms;
+}
+.card:hover .content-left > p,
+.card:hover .content-left > h5,
+.card:hover .description p {
+  color: white;
+  transition: 600ms;
+}
+.card:hover .content-left > h5 {
+  color: white;
+  transition: 600ms;
+}

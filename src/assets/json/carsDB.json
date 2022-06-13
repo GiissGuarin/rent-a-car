@@ -1,0 +1,134 @@
+[
+  {
+    "id": "01",
+    "title": "chevrolet Spark",
+    "brand": "chevrolet",
+    "model": "tecno Sky",
+    "line": "economic line",
+    "year": "2022",
+    "price": 95000,
+    "description": "cu diseño compacto y variedad de colores llamativos, incluso tres tonos totalmente nuevos, hacen que el Spark 2022 se destaque en el camino.",
+    "specification": [
+      {
+        "text": 5,
+        "icon": "fa-solid fa-user"
+      },
+      {
+        "text": "mecanic",
+        "icon": "fa-solid fa-road"
+      },
+      {
+        "text": "gasoline",
+        "icon": "fa-solid fa-gas-pump"
+      },
+      {
+        "text": 4,
+        "icon": "fa-solid fa-car-side"
+      }
+    ],
+    "img": "../../../assets/imgs/auto1.png",
+    "imgs-large": [
+      "https://www.latercera.com/resizer/Mc3ThITjWNklVjXHZ9DRvV1Fu04=/900x600/smart/cloudfront-us-east-1.images.arcpublishing.com/copesa/YXWXJIRA5BH7PHKZHNWZYF5KI4.jpg",
+      "https://www.elcarrocolombiano.com/wp-content/uploads/2021/06/20210617-CHEVROLET-SPARK-2022-ESTADOS-UNIDOS-PRECIO-CARACTERISTICAS-04.jpg"
+    ]
+  },
+  {
+    "id": "02",
+    "title": "hyundai Tuckson",
+    "brand": "hyundai",
+    "model": "tuckson",
+    "line": "SUV Standart",
+    "year": "2019",
+    "price": 125000,
+    "description": " El Hyundai Tucson se caracteriza por ser un modelo avanzado, tecnológico y con un diseño muy atractivo.",
+    "specification": [
+      {
+        "text": 5,
+        "icon": "fa-solid fa-user"
+      },
+      {
+        "text": "mecanic",
+        "icon": "fa-solid fa-road"
+      },
+      {
+        "text": "gasoline",
+        "icon": "fa-solid fa-gas-pump"
+      },
+      {
+        "text": 4,
+        "icon": "fa-solid fa-car-side"
+      }
+    ],
+    "img": "../../../assets/imgs/auto2.png",
+    "imgs_large": [
+      "https://neomotor.sport.es/media/2019/09/nuevo-hyundai-tucson-2019-10-1.x36093.jpg",
+      "https://neomotor.sport.es/media/2019/09/nuevo-hyundai-tucson-2019-2-1068x668.jpg"
+    ]
+  },
+  {
+    "id": "03",
+    "title": "jeep cherokee",
+    "brand": "jeep",
+    "model": "grand cherokee",
+    "line": "4x4 track",
+    "year": "2021",
+    "price": 291000,
+    "description": "Con un diseño contemporáneo con lazos profundos a su herencia, el Jeep® Cherokee 2021 combina el estilo clásico y moderno con una increíble fascia delantera, faros delanteros LED y la parrilla de siete ranuras inconfundible.",
+    "specification": [
+      {
+        "text": 5,
+        "icon": "fa-solid fa-user"
+      },
+      {
+        "text": "automatic",
+        "icon": "fa-solid fa-road"
+      },
+      {
+        "text": "gasoline",
+        "icon": "fa-solid fa-gas-pump"
+      },
+      {
+        "text": 4,
+        "icon": "fa-solid fa-car-side"
+      }
+    ],
+    "img": "../../../assets/imgs/auto3.png",
+    "imgs_large": [
+      "https://es.jeep.com/content/dam/fca-brands/na/jeep/en_us/2022/cherokee/interior/feature-explorer/2022-Cherokee-Interior-Hero-Tablet.jpg",
+      "https://www.diariomotor.com/imagenes/picscache/1440x655c/jeep-grand-cherokee-l-2021-0121-076_1440x655c.jpg"
+    ]
+  },
+  {
+    "id": "04",
+    "title": "ford focus",
+    "brand": "ford",
+    "model": "focus 2.0",
+    "line": "luxury compact",
+    "year": "2015",
+    "price": 206720,
+    "description": "Con un diseño contemporáneo con lazos profundos a su herencia, el Jeep® Cherokee 2021 combina el estilo clásico y moderno con una increíble fascia delantera, faros delanteros LED y la parrilla de siete ranuras inconfundible.",
+    "specification": [
+      {
+        "text": 5,
+        "icon": "fa-solid fa-user"
+      },
+      {
+        "text": "automatic",
+        "icon": "fa-solid fa-road"
+      },
+      {
+        "text": "gasoline",
+        "icon": "fa-solid fa-gas-pump"
+      },
+      {
+        "text": 4,
+        "icon": "fa-solid fa-car-side"
+      }
+    ],
+    "img": "../../../assets/imgs/auto4.png",
+    "imgs_large": [
+      "https://st1.uvnimg.com/9f/4b/317c0b7e460eb15d2689861ac46e/ford-focus-active-2019-1600-04.jpg",
+      "https://a.ccdn.es/cnet/contents/media/ford/focus/1218174.jpg/0_122_1280_842//937x624cut/"
+    ]
+  }
+]

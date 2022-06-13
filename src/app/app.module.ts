@@ -1,26 +1,40 @@
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import { RouterModule } from "@angular/router";
+import { CarDetailsComponent } from "./components/car-details/car-details.component";
+import { BrowserModule } from "@angular/platform-browser";
+import { NgModule } from "@angular/core";
 
-import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from './app.component';
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-import { TitleBannerComponent } from './components/title-banner/title-banner.component';
-import { InicioComponent } from './components/inicio/inicio.component';
-import { FilterComponent } from './components/filter/filter.component';
+import { AppRoutingModule } from "./app-routing.module";
+import { AppComponent } from "./app.component";
+import { NgbModule } from "@ng-bootstrap/ng-bootstrap";
+import { TitleBannerComponent } from "./components/title-banner/title-banner.component";
+import { InicioComponent } from "./components/inicio/inicio.component";
+import { FilterComponent } from "./components/filter/filter.component";
+import { FormsModule, ReactiveFormsModule } from "@angular/forms";
+import { HomeListComponent } from "./components/home-list/home-list.component";
+import { StoreModule } from "@ngrx/store";
+import { carReducer } from "./store/app.reducer";
 
 @NgModule({
   declarations: [
     AppComponent,
     TitleBannerComponent,
     InicioComponent,
-    FilterComponent
+    FilterComponent,
+    CarDetailsComponent,
+    HomeListComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule.forRoot()
+    FormsModule,
+    ReactiveFormsModule,
+    AppRoutingModule,
+    RouterModule,
+    NgbModule,
+    StoreModule.forRoot({ car: carReducer }),
+    NgbModule.forRoot(),
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

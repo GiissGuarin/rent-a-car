@@ -1,0 +1,49 @@
+<div class="body">
+  <div class="content">
+    <div class="row mb-2">
+      <div
+        class="col-xl-3 col-lg-4 col-md-6 col-sm-12 mb-4"
+        *ngFor="let car of carsList"
+      >
+        <div class="card col" (click)="viewDetails(car)">
+          <div class="card-body">
+            <div class="section row">
+              <div class="content-left col">
+                <h5 class="mb-0">{{ car.title | titlecase }}</h5>
+                <p>{{ car.line | titlecase }}</p>
+              </div>
+              <div class="col content-rigth">
+                <div class="description d-flex">
+                  <i class="fa-solid fa-car"></i>
+                  <p>{{ car.model | titlecase }}</p>
+                </div>
+                <div class="description d-flex">
+                  <i class="fa-solid fa-calendar"></i>
+                  <p>{{ car.year }}</p>
+                </div>
+              </div>
+            </div>
+            <div class="section row">
+              <div class="price-amount">
+                <p class="mb-0">From</p>
+                <p class="mb-0 amount">
+                  {{ car.price | currency }}<span>/DAY</span>
+                </p>
+              </div>
+            </div>
+            <div class="section-img row">
+              <img
+                class="col flex-auto"
+                data-src="holder.js/200x250?theme=thumb"
+                alt="Thumbnail [200x250]"
+                i
+                data-holder-rendered="true"
+                [src]="car.img"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
