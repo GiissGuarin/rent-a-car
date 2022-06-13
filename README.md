@@ -1,4 +1,4 @@
-#Rent-a-car
+# Rent-a-car
 
 Car rental search project, carried out as a test project for the position of frontend developer for the company OmniLatam
 
