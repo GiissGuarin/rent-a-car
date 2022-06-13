@@ -1,27 +1,28 @@
-# RentACar
+#Rent-a-car
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.21.
+Car rental search project, carried out as a test project for the position of frontend developer for the company OmniLatam
 
-## Development server
+## Tools 
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+This project was made with:
+* [Angular CLI](https://github.com/angular/angular-cli) version 8.3.21.
+* [Bootstrap](https://github.com/twbs/bootstrap) version 4.0.0.
+* [NgRx](https://ngrx.io/) version 8.6.1
 
-## Code scaffolding
+## How to clone
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+To clone the project:
+* Go to the [Repository](https://github.com/GiissGuarin/rent-a-car) and on the list of files, click Code, or copy the following link https://github.com/GiissGuarin/ rent-a-car.git.
+* Run terminal in the location where you want to clone the directory.
+* In the terminal type `git clone` and paste the repository link.
+```
+git clone https://github.com/GiissGuarin/rent-a-car.git
+```
 
-## Build
+## installation
+To install the libraries and resources that the project requires to open, run ``` npm install ```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## Database
 
-## Running unit tests
+To simulate the database, a db.json file was used, which stores the examples that are displayed when executing the application. 
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
