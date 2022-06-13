@@ -12,7 +12,7 @@ This project was made with:
 ## How to clone
 
 To clone the project:
-* Go to the [Repository](https://github.com/GiissGuarin/rent-a-car) and on the list of files, click Code, or copy the following link https://github.com/GiissGuarin/ rent-a-car.git.
+* Go to the [Repository](https://github.com/GiissGuarin/rent-a-car) and on the list of files, click Code, or copy the following link https://github.com/GiissGuarin/rent-a-car.git.
 * Run terminal in the location where you want to clone the directory.
 * In the terminal type `git clone` and paste the repository link.
 ```
