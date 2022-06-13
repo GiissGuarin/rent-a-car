@@ -1,6 +1,7 @@
 .body {
   background-color: var(--bg-color) !important;
   padding-top: 5vw;
+  padding-bottom: 5vw;
 }
 .contain {
   width: 100%;
